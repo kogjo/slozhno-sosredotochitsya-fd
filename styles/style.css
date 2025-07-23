@@ -142,14 +142,14 @@
 }
 
 .content__section-title {
-  color: var(--content__section-title-color, #ff0070);
+  color: var(--content-section-title-color, #ff0070);
   margin-block-end: 20px;
   font-size: var(--main-font-size, 1.125rem);
   line-height: var(--main-line-height, 23.4px);
 }
 
 .content__section:not(:last-child) {
-  margin-block-end: var(--content__section-margin, 50px);
+  margin-block-end: var(--content-section-margin, 50px);
 }
 
 .content__section-list-item:not(:last-child) {
