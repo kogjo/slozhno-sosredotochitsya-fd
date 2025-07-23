@@ -241,10 +241,6 @@
     gap: 20px;
   }
 
-  .content__section-title {
-    width: 236px;
-  }
-
   .content__section-list {
     grid-column: 2;
   }
