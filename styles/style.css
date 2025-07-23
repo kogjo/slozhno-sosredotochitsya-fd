@@ -51,8 +51,8 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  top: var(--page-padding);
-  right: var(--page-padding);
+  bottom: var(--page-padding, 10px);
+  left: var(--page-padding, 10px);
   block-size: 25px;
   inline-size: 25px;
 
