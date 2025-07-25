@@ -215,7 +215,7 @@
 }
 
 .footer {
-  block-size: 100vh;
+  min-height: 668px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
