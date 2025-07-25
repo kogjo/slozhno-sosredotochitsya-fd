@@ -65,7 +65,7 @@
 .header {
   padding: var(--page-padding);
   position: relative;
-  min-block-size: min-content;
+  min-block-size: 668px;
   block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -96,6 +96,7 @@
 }
 
 .header__theme-menu-button_active {
+  pointer-events: none;
   border: 1px solid var(--button-color, #ff0070);
 }
 
@@ -214,6 +215,7 @@
 }
 
 .footer {
+  block-size: 100vh;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
